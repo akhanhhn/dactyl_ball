@@ -59,11 +59,11 @@ layers:
   - Ctl+Gui+$$mdi:arrow-left-bold$$
   - Ctl+Gui+$$mdi:arrow-right-bold$$
   - $$mdi:apple-keyboard-shift$$
-  - $$mdi:arrow-left-bold$$
-  - $$mdi:arrow-up-bold$$
+  - $$mdi:mouse-left-click-outline$$
+  - '&mkp MB3'
   - $$mdi:keyboard-space$$
-  - $$mdi:arrow-down-bold$$
-  - $$mdi:arrow-right-bold$$
+  - '&mkp MB4'
+  - $$mdi:mouse-right-click-outline$$
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
