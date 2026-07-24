@@ -312,7 +312,7 @@
 &trans  &trans             &trans          &trans          &trans                                    &trans        &trans        &trans        &trans     &trans
             >;
 
-            sensor-bindings = <&none>, <&none>;
+            //sensor-bindings = <&none>, <&none>;
         };
 
         characters {
