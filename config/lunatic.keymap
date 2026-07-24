@@ -297,7 +297,7 @@
 &kp ESC     &kp A         &kp S      &kp D     &kp F      &kp G      &kp H    &kp J     &kp K                   &kp L              &kp SEMI        &kp BACKSPACE
 &kp LCTRL   &kp Z         &kp X      &kp C     &kp V      &kp B      &kp N    &kp M     &kp COMMA               &kp DOT            &kp FSLH        &kp RCTRL
             &kp LEFT_GUI  &kp LC(A)  &kp DEL   &mo 1      &kp SPACE  &kp RET  &mo 2     &kp LC(LG(LEFT_ARROW))  &kp LC(LG(RIGHT))  &kp LEFT_SHIFT
-&kp LEFT    &kp UP        &kp SPACE  &kp DOWN  &kp RIGHT                      &kp LEFT  &kp DOWN                &kp ENTER          &kp UP          &kp RIGHT
+&mkp LCLK   &mkp MB3      &kp SPACE  &mkp MB4  &mkp RCLK                      &kp LEFT  &kp DOWN                &kp ENTER          &kp UP          &kp RIGHT
             >;
         };
 
