@@ -19,9 +19,9 @@
 
 #define Main 0
 #define Num 1
-#define Mouse 2
-#define Opt1 3
-#define Opt2 4
+#define Characters 2
+#define Fn 3
+#define Mouse 4
 #define ZMK_POINTING_DEFAULT_MOVE_VAL 1200  // 600
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 900   // mousescroll SPEED
 
@@ -315,8 +315,8 @@
             //sensor-bindings = <&none>, <&none>;
         };
 
-        characters {
-            display-name = "characters";
+        Characters {
+            display-name = "Characters";
             bindings = <
 &trans  &trans           &trans       &trans       &trans      &trans       &trans          &trans         &trans        &trans     &trans        &trans
 &trans  &kp EXCLAMATION  &kp AT_SIGN  &kp HASH     &kp DOLLAR  &kp PERCENT  &kp LCTRL       &kp AMPERSAND  &kp ASTERISK  &kp GRAVE  &laughing     &trans
@@ -342,7 +342,7 @@
             sensor-bindings = <&inc_dec_kp 0 0>, <&inc_dec_kp 0 0>;
         };
 
-        mouse {
+        Mouse {
             bindings = <
 &trans  &bt BT_DISC 0  &bt BT_DISC 1   &bt BT_DISC 3   &trans           &trans           &bt BT_SEL 0       &bt BT_SEL 1  &bt BT_SEL 2  &trans  &bt BT_CLR_ALL  &trans
 &trans  &mkp MCLK      &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP     &msc SCRL_RIGHT  &kp C_VOLUME_UP    &trans        &trans        &trans  &trans          &trans
