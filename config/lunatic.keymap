@@ -121,7 +121,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "MOUSE4_CTRLSHIFT";
             #binding-cells = <0>;
-            bindings = <&mo 4>, <&kp LS(RCTRL)>;
+            bindings = <&mo 4>, <&kp LS(LCTRL)>;
         };
     };
 
