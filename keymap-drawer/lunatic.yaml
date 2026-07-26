@@ -368,6 +368,7 @@ combos:
   k: ':'
 - p: [39, 40]
   k: $$mdi:apple-keyboard-shift$$
+  l: [Main, Num, Characters]
 - p: [28, 41]
   k: RETURN
 - p: [28, 27]
