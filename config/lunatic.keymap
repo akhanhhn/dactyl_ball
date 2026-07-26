@@ -23,7 +23,7 @@
 #define Fn 3
 #define Mouse 4
 #define ZMK_POINTING_DEFAULT_MOVE_VAL 1200  // 600
-#define ZMK_POINTING_DEFAULT_SCRL_VAL 500   // mousescroll SPEED
+#define ZMK_POINTING_DEFAULT_SCRL_VAL 300   // mousescroll SPEED
 
 &mmv_input_listener { input-processors = <&zip_xy_scaler 2 1>; };
 
